@@ -55,10 +55,10 @@ ssh root@127.0.0.1
 Type out the following.
 ```
 cd /tmp/playbook
-shsible-init.sh -g mygroup -r sample -h host1
+shellsible-init.sh -g mygroup -r sample -h host1
 ```
 
-As a result of running "shsible-init.sh", you can see the following output.
+As a result of running "shellsible-init.sh", you can see the following output.
 
 ```
 .
