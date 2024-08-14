@@ -1,16 +1,17 @@
 # Shellsible
-Shellsible is a simple IT automation system inspired by Ansible.
+Shellsible is a simple IT automation system inspired by [Ansible](https://www.ansible.com/).
 
 ## Design Principles
 * Configured mainly with shell scripts.
 * No additional software installation required.
+* Emphasize "[Convention over configuration](https://en.wikipedia.org/wiki/Convention_over_configuration)".
 
 ## Advantages over Ansible
 * No need to install additional software.
 * Shell scripts can be used as configuration files.
 * Control statements like "if" and "while" are easily expressed using shell scripts.
 
-## Installe Shellsible
+## Install Shellsible
 
 See Tutorial.
 
@@ -20,14 +21,14 @@ See Tutorial.
 This tutorial uses the following directories.
 
 ```
-tmp
+/tmp
 ├── playbook
 ├── repo
 ├── target
 ```
 * playbook: Configuration files.
 * repo: Source code for Shellsible.
-* target: Remote machine's directories.
+* target: Remote host's directories.
 
 ### Make Directories
 Type out the following.
@@ -57,6 +58,10 @@ Type out the following.
 cd /tmp/playbook
 shellsible-init.sh -g mygroup -r sample -h host1
 ```
+
+* -g: group
+* -r: role
+* -h: target host
 
 As a result of running "shellsible-init.sh", you can see the following output.
 
