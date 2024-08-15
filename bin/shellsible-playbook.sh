@@ -179,6 +179,7 @@ ${BIN_DIR}/remote.sh,
 
 	kill -9 ${CPID}
     wait ${CPID} > /dev/null 2>&1
+    CPID=""
 
     if [ -z "${DEBUG}" ]; then
         REMOTE_CMD="rm -fr ${REMOTE_TMP_DIR:-/ERROR}"

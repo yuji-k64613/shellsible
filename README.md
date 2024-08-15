@@ -1,10 +1,14 @@
 # Shellsible
 Shellsible is a simple IT automation system inspired by [Ansible](https://www.ansible.com/).
+* Partial Ansible alternative
+* Automation technology using shell scripting
+* DevOps tools
 
 ## Design Principles
 * Configured mainly with shell scripts.
 * No additional software installation required.
-* Emphasize "[Convention over configuration](https://en.wikipedia.org/wiki/Convention_over_configuration)".
+* Emphasize "[Convention over configuration](https://en.wikipedia.org/wiki/Convention_over_configuration)" according to Ansible's "[Best Practices](https://docs.ansible.com/ansible/2.8/user_guide/playbooks_best_practices.html#best-practices
+)"
 
 ## Advantages over Ansible
 * No need to install additional software.
@@ -13,9 +17,12 @@ Shellsible is a simple IT automation system inspired by [Ansible](https://www.an
 
 ## Install Shellsible
 
-See Tutorial.
+See [Tutorial](#install-shellsible-1).
 
 ## Tutorial
+
+This step-by-step tutorial will give you a basic understanding of how to use Shellsible.
+To keep the tutorial simple and easy to follow, it demonstrates how to manage the local host(127.0.0.1) as the target with Shellsible, rather than a remote host.
 
 ### Directory Tree
 This tutorial uses the following directories.
@@ -330,3 +337,6 @@ Parameters
 | path | | Path to the file being managed |
 | state* | directory(default) or absent    | Create or delete a directory |
 
+## Author
+
+Shellsible was created by Yuji Konishi.
