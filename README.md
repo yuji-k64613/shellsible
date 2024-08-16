@@ -24,6 +24,12 @@ See [Tutorial](#install-shellsible-1).
 This step-by-step tutorial will give you a basic understanding of how to use Shellsible.
 To keep the tutorial simple and easy to follow, it demonstrates how to manage the local host(127.0.0.1) as the target with Shellsible, rather than a remote host.
 
+### Premise
+
+* You have some understanding of how to use Ansible.
+  * If not, you can learn and practice Ansible [here](https://github.com/yuji-k64613/ansible_tutorial).
+* You prepare Linux.
+
 ### Directory Tree
 This tutorial uses the following directories.
 
